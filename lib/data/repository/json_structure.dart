@@ -1,4 +1,4 @@
-var a =
+var weatherJsonData =
   {
   "consolidated_weather": [
     {
