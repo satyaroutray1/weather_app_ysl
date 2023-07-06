@@ -1,10 +1,8 @@
-import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
+import 'package:weather_app/bloc/weather_event.dart';
+import 'package:weather_app/bloc/weather_state.dart';
 
-part 'weather_event.dart';
-part 'weather_state.dart';
 
 class WeatherBloc extends Bloc<WeatherEvent, WeatherState> {
   WeatherBloc() : super(WeatherInitial()) {
