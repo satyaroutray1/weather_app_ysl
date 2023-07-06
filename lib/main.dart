@@ -19,9 +19,7 @@ class MyApp extends StatelessWidget {
       create: (context) => WeatherBloc(Repo()),
       child: MaterialApp(
         title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        theme: ThemeData(),
         home: const MyHomePage(title: 'Flutter Demo Home Page'),
         debugShowCheckedModeBanner: false,
       ),
