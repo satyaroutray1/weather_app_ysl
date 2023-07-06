@@ -15,4 +15,7 @@ class WeatherLoaded extends WeatherState{
   WeatherLoaded({this.weather});
 }
 
-class WeatherError extends WeatherState{}
+class WeatherError extends WeatherState{
+  final city;
+  WeatherError({this.city});
+}

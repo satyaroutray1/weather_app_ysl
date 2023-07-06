@@ -18,9 +18,12 @@ class WeatherBloc extends Bloc<WeatherEvent, WeatherState> {
     emit(WeatherLoading());
     try {
       final weatherData = await repo.getApiData();
-      print("**********${(weatherData['parent']['title'])}");
 
-      emit(WeatherLoaded(weather: weatherData));
+      if(getWeatherEvent.cityName == 'london' || getWeatherEvent.cityName == null ) {
+        emit(WeatherLoaded(weather: weatherData));
+      }else{
+        emit(WeatherError(city: getWeatherEvent.cityName));
+      }
     } catch (e){
       emit(WeatherError());
     }
