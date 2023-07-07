@@ -85,14 +85,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      data == 'Light Cloud' ? Colors.yellow.shade700
+                      data == 'Light Cloud' ? Colors.blue
                       :data == 'Heavy Cloud' ? Colors.blueAccent
                       :data ==  'Showers' ? Colors.cyan
-                          : Colors.blue,
-                      data == 'Light Cloud' ? Colors.yellow.shade400
+                          : Colors.yellow.shade700,
+                      data == 'Light Cloud' ? Colors.blue.shade100
                           :data == 'Heavy Cloud' ? Colors.blueAccent.shade100
                           :data ==  'Showers' ? Colors.cyanAccent.shade100
-                          : Colors.blue.shade100,
+                          : Colors.yellow.shade400,
                     ],
                   )),
               child: Center(
