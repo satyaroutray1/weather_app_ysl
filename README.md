@@ -6,7 +6,7 @@ A new Flutter project.
 
 Weather app
 
-![Alt text](images/1.jpg?raw=true "Optional Title")
+![Alt text](assets/images/1.jpg?raw=true "Optional Title")
 ![Alt text](images/2.jpg?raw=true "Optional Title")
 ![Alt text](images/3.jpg?raw=true "Optional Title")
 ![Alt text](images/4.jpg?raw=true "Optional Title")
